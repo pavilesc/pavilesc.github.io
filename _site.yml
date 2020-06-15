@@ -1,0 +1,10 @@
+output_dir: "docs"
+navbar: 
+  title: "Riesgo ambiental"
+  left:
+    - text: "Inicio"
+      href: index.html
+    - text: Redes
+      href: network.html
+output:
+  html_document:
