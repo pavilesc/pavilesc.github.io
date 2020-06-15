@@ -1,5 +1,10 @@
 ---
 title: "Construcción social del riesgo ambiental"
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+  encoding=encoding,
+  output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
 author: "Patricia Avilés Casas"
 date: "15/6/2020"
 output: html_document
