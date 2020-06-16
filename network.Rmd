@@ -1,5 +1,5 @@
 ---
-title: "Transversalidad de conocimientos de los programas educativos"
+title: "Transversalidad de conocimientos"
 ---
 
 ## Red de consenso de los programas educativos
@@ -90,7 +90,7 @@ plot(net,
      edge.width=log(E(net)$weight),
      layout=lgl)
 # Se agrega la leyenda
-legend(-0.4,0.7, legend=levels(as.factor(V(net)$Área)), 
+legend(-1.0,0.7, legend=levels(as.factor(V(net)$Área)), 
        col = colores , bty = "n", pch=20 , pt.cex = 3, cex = 1.0, 
        text.col=colores , horiz = FALSE, inset = c(0.1, 0.1))
 ```
@@ -146,7 +146,7 @@ plot(net,
      edge.width=log(E(net)$weight),
      layout=lgl)
 # Se agrega la leyenda
-legend(-0.6,-0.7, legend=levels(as.factor(V(net)$Área)), 
+legend(-1.0,-0.7, legend=levels(as.factor(V(net)$Área)), 
        col = colores , bty = "n", pch=20 , pt.cex = 3, cex = 1.0, 
        text.col=colores , horiz = FALSE, inset = c(0.1, 0.1))
 ```
