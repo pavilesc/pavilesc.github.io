@@ -149,4 +149,5 @@ plot(net,
 legend(-1.0,-0.7, legend=levels(as.factor(V(net)$Área)), 
        col = colores , bty = "n", pch=20 , pt.cex = 3, cex = 1.0, 
        text.col=colores , horiz = FALSE, inset = c(0.1, 0.1))
+
 ```
