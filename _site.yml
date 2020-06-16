@@ -1,3 +1,5 @@
+name: "Tesis de la Maestría en Investigación Educativa"
+author: "Patricia Avilés Casas"
 output_dir: "docs"
 navbar: 
   title: "Riesgo ambiental"
@@ -8,3 +10,5 @@ navbar:
       href: network.html
 output:
   html_document:
+    theme: cosmo
+    highlight: textmate

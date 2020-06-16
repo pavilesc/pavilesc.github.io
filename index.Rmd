@@ -1,5 +1,9 @@
-## R Markdown
+---
+title: "Construcción social del riesgo ambiental"
+---
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+## Bienvenido
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+Esta es una página en donde encontraras material relacionado con mi tesis de maestría en Investigación Educativa, titulada "Los procesos de aprendizaje en la construcción social del riesgo ambiental en estudiantes de bachillerato".
+
+El material adicional consiste de diferentes herramientas de visualización de la información, tales como redes y árboles de consenso, dendrogrmas para clasificación estilométrica, entre otros recursos.

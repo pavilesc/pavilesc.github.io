@@ -1,0 +1,153 @@
+Source,Target,Weight,Type
+1 Sem Algebra,1 Sem Tecnologías de la Información y comunicación,1,undirected
+1 Sem Algebra,2 Sem Geometría y trigonometría,24,undirected
+1 Sem Algebra,2 Sem Química II,2,undirected
+1 Sem Algebra,3 Sem Geometría analítica,15,undirected
+1 Sem Algebra,4 Sem Calculo diferencial,20,undirected
+1 Sem Algebra,5 Sem Cálculo integral,43,undirected
+1 Sem Inglés I,2 Sem Inglés II,59,undirected
+1 Sem Inglés I,2 Sem Lectura expresión oral y escritura II,4,undirected
+1 Sem Inglés I,3 Sem Inglés III,10,undirected
+1 Sem Inglés I,4 Sem Inglés IV,15,undirected
+1 Sem Inglés I,5 Sem Inglés V,6,undirected
+1 Sem Lectura expresión oral y escritura I,1 Sem Lógica,3,undirected
+1 Sem Lectura expresión oral y escritura I,1 Sem Tecnologías de la Información y comunicación,41,undirected
+1 Sem Lectura expresión oral y escritura I,2 Sem Geometría y trigonometría,2,undirected
+1 Sem Lectura expresión oral y escritura I,2 Sem Inglés II,3,undirected
+1 Sem Lectura expresión oral y escritura I,2 Sem Lectura expresión oral y escritura II,60,undirected
+1 Sem Lectura expresión oral y escritura I,5 Sem Cálculo integral,2,undirected
+1 Sem Lectura expresión oral y escritura I,6 Sem Probabilidad y estadística,1,undirected
+1 Sem Lógica,1 Sem Lectura expresión oral y escritura I,3,undirected
+1 Sem Lógica,1 Sem Tecnologías de la Información y comunicación,10,undirected
+1 Sem Lógica,2 Sem Geometría y trigonometría,1,undirected
+1 Sem Lógica,3 Sem Ética,40,undirected
+1 Sem Lógica,4 Sem Física I,1,undirected
+1 Sem Lógica,5 Sem Inglés V,2,undirected
+1 Sem Lógica,6 Sem Temas de filosofía,58,undirected
+1 Sem Química I,2 Sem Química II,60,undirected
+1 Sem Química I,3 Sem Biología,48,undirected
+1 Sem Química I,4 Sem Ecología,23,undirected
+1 Sem Química I,4 Sem Física I,17,undirected
+1 Sem Química I,5 Sem Ciencia Tecnología Sociedad y Valores,3,undirected
+1 Sem Química I,5 Sem Física II,4,undirected
+1 Sem Tecnologías de la Información y comunicación,1 Sem Algebra,1,undirected
+1 Sem Tecnologías de la Información y comunicación,1 Sem Lectura expresión oral y escritura I,41,undirected
+1 Sem Tecnologías de la Información y comunicación,1 Sem Lógica,10,undirected
+1 Sem Tecnologías de la Información y comunicación,2 Sem Inglés II,1,undirected
+1 Sem Tecnologías de la Información y comunicación,2 Sem Lectura expresión oral y escritura II,49,undirected
+1 Sem Tecnologías de la Información y comunicación,3 Sem Biología,1,undirected
+1 Sem Tecnologías de la Información y comunicación,5 Sem Cálculo integral,1,undirected
+1 Sem Tecnologías de la Información y comunicación,6 Sem Probabilidad y estadística,1,undirected
+2 Sem Geometría y trigonometría,1 Sem Algebra,24,undirected
+2 Sem Geometría y trigonometría,1 Sem Lectura expresión oral y escritura I,2,undirected
+2 Sem Geometría y trigonometría,1 Sem Lógica,1,undirected
+2 Sem Geometría y trigonometría,3 Sem Geometría analítica,58,undirected
+2 Sem Geometría y trigonometría,4 Sem Calculo diferencial,6,undirected
+2 Sem Geometría y trigonometría,5 Sem Cálculo integral,16,undirected
+2 Sem Geometría y trigonometría,6 Sem Probabilidad y estadística,3,undirected
+2 Sem Inglés II,1 Sem Inglés I,59,undirected
+2 Sem Inglés II,1 Sem Lectura expresión oral y escritura I,3,undirected
+2 Sem Inglés II,1 Sem Tecnologías de la Información y comunicación,1,undirected
+2 Sem Inglés II,2 Sem Lectura expresión oral y escritura II,1,undirected
+2 Sem Inglés II,3 Sem Inglés III,26,undirected
+2 Sem Inglés II,4 Sem Inglés IV,37,undirected
+2 Sem Inglés II,5 Sem Inglés V,21,undirected
+2 Sem Lectura expresión oral y escritura II,1 Sem Inglés I,4,undirected
+2 Sem Lectura expresión oral y escritura II,1 Sem Lectura expresión oral y escritura I,60,undirected
+2 Sem Lectura expresión oral y escritura II,1 Sem Tecnologías de la Información y comunicación,49,undirected
+2 Sem Lectura expresión oral y escritura II,2 Sem Inglés II,1,undirected
+2 Sem Lectura expresión oral y escritura II,3 Sem Geometría analítica,1,undirected
+2 Sem Lectura expresión oral y escritura II,4 Sem Inglés IV,3,undirected
+2 Sem Lectura expresión oral y escritura II,6 Sem Probabilidad y estadística,1,undirected
+2 Sem Química II,1 Sem Algebra,2,undirected
+2 Sem Química II,1 Sem Química I,60,undirected
+2 Sem Química II,3 Sem Biología,24,undirected
+2 Sem Química II,4 Sem Ecología,6,undirected
+2 Sem Química II,4 Sem Física I,39,undirected
+2 Sem Química II,5 Sem Física II,26,undirected
+3 Sem Biología,1 Sem Química I,48,undirected
+3 Sem Biología,1 Sem Tecnologías de la Información y comunicación,1,undirected
+3 Sem Biología,2 Sem Química II,24,undirected
+3 Sem Biología,3 Sem Ética,5,undirected
+3 Sem Biología,4 Sem Ecología,26,undirected
+3 Sem Biología,4 Sem Física I,2,undirected
+3 Sem Biología,5 Sem Ciencia Tecnología Sociedad y Valores,11,undirected
+3 Sem Biología,5 Sem Física II,4,undirected
+3 Sem Biología,6 Sem Temas de filosofía,1,undirected
+3 Sem Ética,1 Sem Lógica,40,undirected
+3 Sem Ética,3 Sem Biología,5,undirected
+3 Sem Ética,4 Sem Ecología,1,undirected
+3 Sem Ética,5 Sem Ciencia Tecnología Sociedad y Valores,5,undirected
+3 Sem Ética,6 Sem Temas de filosofía,52,undirected
+3 Sem Geometría analítica,1 Sem Algebra,15,undirected
+3 Sem Geometría analítica,2 Sem Geometría y trigonometría,58,undirected
+3 Sem Geometría analítica,2 Sem Lectura expresión oral y escritura II,1,undirected
+3 Sem Geometría analítica,4 Sem Calculo diferencial,1,undirected
+3 Sem Geometría analítica,5 Sem Cálculo integral,23,undirected
+3 Sem Geometría analítica,6 Sem Probabilidad y estadística,14,undirected
+3 Sem Geometría analítica,6 Sem Temas de filosofía,1,undirected
+3 Sem Inglés III,1 Sem Inglés I,10,undirected
+3 Sem Inglés III,2 Sem Inglés II,26,undirected
+3 Sem Inglés III,4 Sem Inglés IV,46,undirected
+3 Sem Inglés III,5 Sem Inglés V,60,undirected
+4 Sem Calculo diferencial,1 Sem Algebra,20,undirected
+4 Sem Calculo diferencial,2 Sem Geometría y trigonometría,6,undirected
+4 Sem Calculo diferencial,3 Sem Geometría analítica,1,undirected
+4 Sem Calculo diferencial,5 Sem Cálculo integral,59,undirected
+4 Sem Calculo diferencial,6 Sem Probabilidad y estadística,51,undirected
+4 Sem Ecología,1 Sem Química I,23,undirected
+4 Sem Ecología,2 Sem Química II,6,undirected
+4 Sem Ecología,3 Sem Biología,26,undirected
+4 Sem Ecología,3 Sem Ética,1,undirected
+4 Sem Ecología,4 Sem Física I,1,undirected
+4 Sem Ecología,5 Sem Ciencia Tecnología Sociedad y Valores,43,undirected
+4 Sem Ecología,5 Sem Física II,3,undirected
+4 Sem Ecología,6 Sem Temas de filosofía,2,undirected
+4 Sem Física I,1 Sem Lógica,1,undirected
+4 Sem Física I,1 Sem Química I,17,undirected
+4 Sem Física I,2 Sem Química II,39,undirected
+4 Sem Física I,3 Sem Biología,2,undirected
+4 Sem Física I,4 Sem Ecología,1,undirected
+4 Sem Física I,5 Sem Física II,60,undirected
+4 Sem Inglés IV,1 Sem Inglés I,15,undirected
+4 Sem Inglés IV,2 Sem Inglés II,37,undirected
+4 Sem Inglés IV,2 Sem Lectura expresión oral y escritura II,3,undirected
+4 Sem Inglés IV,3 Sem Inglés III,46,undirected
+4 Sem Inglés IV,5 Sem Inglés V,20,undirected
+5 Sem Cálculo integral,1 Sem Algebra,43,undirected
+5 Sem Cálculo integral,1 Sem Lectura expresión oral y escritura I,2,undirected
+5 Sem Cálculo integral,1 Sem Tecnologías de la Información y comunicación,1,undirected
+5 Sem Cálculo integral,2 Sem Geometría y trigonometría,16,undirected
+5 Sem Cálculo integral,3 Sem Geometría analítica,23,undirected
+5 Sem Cálculo integral,4 Sem Calculo diferencial,59,undirected
+5 Sem Cálculo integral,6 Sem Probabilidad y estadística,25,undirected
+5 Sem Ciencia Tecnología Sociedad y Valores,1 Sem Química I,3,undirected
+5 Sem Ciencia Tecnología Sociedad y Valores,3 Sem Biología,11,undirected
+5 Sem Ciencia Tecnología Sociedad y Valores,3 Sem Ética,5,undirected
+5 Sem Ciencia Tecnología Sociedad y Valores,4 Sem Ecología,43,undirected
+5 Sem Ciencia Tecnología Sociedad y Valores,5 Sem Física II,19,undirected
+5 Sem Ciencia Tecnología Sociedad y Valores,6 Sem Temas de filosofía,6,undirected
+5 Sem Física II,1 Sem Química I,4,undirected
+5 Sem Física II,2 Sem Química II,26,undirected
+5 Sem Física II,3 Sem Biología,4,undirected
+5 Sem Física II,4 Sem Ecología,3,undirected
+5 Sem Física II,4 Sem Física I,60,undirected
+5 Sem Física II,5 Sem Ciencia Tecnología Sociedad y Valores,19,undirected
+5 Sem Inglés V,1 Sem Inglés I,6,undirected
+5 Sem Inglés V,1 Sem Lógica,2,undirected
+5 Sem Inglés V,2 Sem Inglés II,21,undirected
+5 Sem Inglés V,3 Sem Inglés III,60,undirected
+5 Sem Inglés V,4 Sem Inglés IV,20,undirected
+6 Sem Probabilidad y estadística,1 Sem Lectura expresión oral y escritura I,1,undirected
+6 Sem Probabilidad y estadística,1 Sem Tecnologías de la Información y comunicación,1,undirected
+6 Sem Probabilidad y estadística,2 Sem Geometría y trigonometría,3,undirected
+6 Sem Probabilidad y estadística,2 Sem Lectura expresión oral y escritura II,1,undirected
+6 Sem Probabilidad y estadística,3 Sem Geometría analítica,14,undirected
+6 Sem Probabilidad y estadística,4 Sem Calculo diferencial,51,undirected
+6 Sem Probabilidad y estadística,5 Sem Cálculo integral,25,undirected
+6 Sem Temas de filosofía,1 Sem Lógica,58,undirected
+6 Sem Temas de filosofía,3 Sem Biología,1,undirected
+6 Sem Temas de filosofía,3 Sem Ética,52,undirected
+6 Sem Temas de filosofía,3 Sem Geometría analítica,1,undirected
+6 Sem Temas de filosofía,4 Sem Ecología,2,undirected
+6 Sem Temas de filosofía,5 Sem Ciencia Tecnología Sociedad y Valores,6,undirected

@@ -1,17 +1,152 @@
 ---
-title: "Construcción social del riesgo ambiental"
+title: "Transversalidad de conocimientos de los programas educativos"
 ---
 
+## Red de consenso de los programas educativos
+### Unograma
 
-## R Markdown
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.width = 10, fig.height = 10, message=FALSE, results='hide')
+```
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+```{r settings}
+#-------------------------------------------------------------------------------------
+# Universidad Veracruzana
+# Maestría en Investigación Educativa
+# Autores: Patricia Avilés Casas
+#-------------------------------------------------------------------------------------
+# Código para graficar red a partir de lista de aristas (EDGES)
+# generados por stylo
+#-------------------------------------------------------------------------------------
+# Paquete para plotear redes
+library(igraph)
+# Paquete multipropósito para gestión de datos
+library(tidyverse)
+# Se carga el paquete para generar un paleta de colores
+library(RColorBrewer)
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+#-------------------------------------------------------------------------------------
+# CONFIGURACIÓN GENERAL
+#-------------------------------------------------------------------------------------
+# Se busca el archivo de nodos clasificados por área
+node_file = list.files(pattern = "Materias", full.names = TRUE)
+
+# Se lee el archivo de nodos
+node_df = read_csv(node_file, locale = readr::locale(encoding = "latin1"))
+
+# Se obtiene la cantidad de colores necesarios
+N_areas = length(unique(node_df$Área))
+
+# Obtenemos la secuencia de colores
+colores  <- brewer.pal(N_areas, "Set1") 
+
+```
+
+```{r unograma}
+# Se modifica el color de fondo y los margenes del gráfico
+par(bg="black", mar=c(0,0,0,0))
+
+#-------------------------------------------------------------------------------------
+# RED PARA UNO-GRAMAS
+#-------------------------------------------------------------------------------------
+# Se busca el archivo con nombre completo en el directorio de tetra-gramas
+edge_file  = list.files(path = "1-gram", pattern = "EDGES", full.names = TRUE)
+
+# Se lee la base de datos
+edge_df = read_csv(edge_file, locale = readr::locale(encoding = "latin1"))
+edge_df= edge_df %>%
+  rename(weight = Weight)
+
+# Se inicia la red con los datos de nodos y arcos
+net = graph_from_data_frame(d=edge_df, vertices = node_df, directed=F)
+
+# Se verifica que la red generada es ponderada (los pesos de los arcos)
+is_weighted(net)
+
+# Crea vector de color
+mi_color <- colores[as.numeric(as.factor(V(net)$Área))]
+
+# Genera el "grado" de los nodos, nodos más conectados tienen mayor "grado"
+deg <- degree(net, mode="all")
+
+# Para graficar la red
+# Valor semilla para generar valores "aleatorios" (permite replicar los gráficos)
+set.seed(5)
+# Se prueban diferentes algoritmos de "fuerza dirigida" para acomodar los nodos
+# Algoritmo Fruchterman-Reingold
+fr <- layout_with_fr(net)
+# Algoritmo Kamada Kawai
+kk <- layout_with_kk(net)
+# Algoritmo Large Graph Layout (LGL) 
+# creado por Alex Adai en el Laboratorio de Edward Marcotte
+lgl <- layout_with_lgl(net)
+
+# Después de algunas iteraciones de los algoritmos, 
+# se opta por los siguientes parámetros para graficar
+plot(net, 
+     vertex.size=deg*1.5, 
+     vertex.color=mi_color, 
+     vertex.label.color="white",
+     edge.width=log(E(net)$weight),
+     layout=lgl)
+# Se agrega la leyenda
+legend(-0.4,0.7, legend=levels(as.factor(V(net)$Área)), 
+       col = colores , bty = "n", pch=20 , pt.cex = 3, cex = 1.0, 
+       text.col=colores , horiz = FALSE, inset = c(0.1, 0.1))
+```
 
 
-## Including Plots
+### Tetragramas
 
-You can also embed plots, for example:
+```{r tetragrama}
+# Se modifica el color de fondo y los margenes del gráfico
+par(bg="black", mar=c(0,0,0,0))
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+#-------------------------------------------------------------------------------------
+# RED PARA TETRA-GRAMAS
+#-------------------------------------------------------------------------------------
+# Se busca el archivo con nombre completo en el directorio de tetra-gramas
+edge_file  = list.files(path = "4-gram", pattern = "EDGES", full.names = TRUE)
+
+# Se lee la base de datos
+edge_df = read_csv(edge_file, locale = readr::locale(encoding = "latin1"))
+edge_df= edge_df %>%
+  rename(weight = Weight)
+
+# Se inicia la red con los datos de nodos y arcos
+net = graph_from_data_frame(d=edge_df, vertices = node_df, directed=F)
+
+# Se verifica que la red generada es ponderada (los pesos de los arcos)
+is_weighted(net)
+
+# Crea vector de color
+mi_color <- colores[as.numeric(as.factor(V(net)$Área))]
+
+# Genera el "grado" de los nodos, nodos más conectados tienen mayor "grado"
+deg <- degree(net, mode="all")
+
+# Para graficar la red
+# Valor semilla para generar valores "aleatorios" (permite replicar los gráficos)
+set.seed(5)
+# Se prueban diferentes algoritmos de "fuerza dirigida" para acomodar los nodos
+# Algoritmo Fruchterman-Reingold
+fr <- layout_with_fr(net)
+# Algoritmo Kamada Kawai
+kk <- layout_with_kk(net)
+# Algoritmo Large Graph Layout (LGL) 
+# creado por Alex Adai en el Laboratorio de Edward Marcotte
+lgl <- layout_with_lgl(net)
+
+# Después de algunas iteraciones de los algoritmos, 
+# se opta por los siguientes parámetros para graficar
+plot(net, 
+     vertex.size=deg*1.5, 
+     vertex.color=mi_color, 
+     vertex.label.color="white",
+     edge.width=log(E(net)$weight),
+     layout=lgl)
+# Se agrega la leyenda
+legend(-0.6,-0.7, legend=levels(as.factor(V(net)$Área)), 
+       col = colores , bty = "n", pch=20 , pt.cex = 3, cex = 1.0, 
+       text.col=colores , horiz = FALSE, inset = c(0.1, 0.1))
+```
